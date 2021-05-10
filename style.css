@@ -1,0 +1,341 @@
+*,
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.navbar-light .navbar-brand{
+    font-size: 2em;
+    color: #4d556f! important ;
+    font-weight: bolder; 
+}
+
+.navbar-nav{
+    text-align: center;
+}
+
+a{
+    margin-left: 3em;
+}
+
+.hr{
+    margin: 1 !important;
+    height: 1px !important;
+    opacity: 1 !important;
+    background-color:  gray !important;
+}
+
+.hr{
+    margin-left: 21%;
+    width: 52%;
+}
+
+.section1{
+    background-color: #373767;
+    height: 50em;
+    display: flex;
+    flex-direction: column;
+    background-image: url(imagens/Wood.png);
+    background-size: cover; 
+}
+
+.section3{
+    margin-top: 7em;
+}
+
+.section4{
+    margin-top: 7em;
+    text-align: center;
+}
+
+.section5{
+    margin-top: 6em;
+}
+
+span{
+    color: white;
+    font-weight: 100;
+}
+
+p{
+    font-size: 20px;
+    text-align: center;
+}
+
+.textoSection1{
+   width: 46em;
+   text-align: center;
+   margin: auto;
+}
+
+.h1Section1{
+    font-size: 4em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+.botao{
+    background-color: #f45267;
+    border-style: none;
+    height: 47px;
+    width: 13em;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.section2ImgCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.FlexSections1{
+    display: flex;
+    margin-top: 4em;
+}
+
+.FlexSections2{
+    display: flex;
+    margin-top: 4em;
+}
+
+.fotos{
+    width: 25%;
+}
+
+.pessoas{
+    display: flex;
+    flex-direction: column;    
+    width: 15vw;
+    margin-right: 28px;
+}
+
+.titulosPessoas{
+   text-align: left;
+   font-size: 13px;
+   margin-top: 3px;
+}
+
+.nomesPessoas{
+    text-align: left;
+    margin-bottom: 0;
+}
+
+.pPessoas{
+    text-align: left;
+    font-size: 18px;
+}
+
+.peoples{
+    width: 17em;
+    margin-top: 5em;
+    display: flex;  
+}
+
+.iconsPessoas{
+    display: flex;
+}
+
+.mulherCard{
+    display: flex;  
+}
+
+.mulherImagem{
+    width: 50%;
+}
+
+.roxoCard{
+    background-color: #53354a;
+    color:white;
+    font-family:'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
+    padding-top: 7vw;
+    padding-left: 3vw;
+    padding-right: 19vw;
+    width: 50%;   
+}
+
+.bolinhas{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.bola{
+    width: 10px;
+    height: 10px;
+    background-color: #856074;
+    border-radius: 100px;
+    margin-right: 5px;
+}
+
+.pMulher{
+    font-size: 14px;
+    font-weight: bolder;
+    text-align: left;
+    margin-top: 2em;
+}
+
+.textoMulher{
+    font-size: 30px;
+    text-align: justify;
+}
+
+.botao2{
+    border-style: none;
+    height: 40px;
+    width: 21em;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.pSection4{
+    font-size: 2em;
+    font-weight: 100;
+}
+
+.p2Section4{
+    font-size: 15px;
+    color: black;
+    font-weight: bolder;
+}
+
+.FinalCards{
+    display:flex;
+    justify-content: space-evenly;
+    background-color: #373767;
+    margin-top: 5em;
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+.textoFinalCards{
+    margin-bottom: 0;
+    font-size: 15px;
+    width: 24em;
+}
+
+.h5FinalCards{
+    text-align: center; 
+    font-size: 15px; 
+}
+
+.finalFooter {
+    display: flex;
+    justify-content: center;
+    background-color: #252a55;   
+}
+
+.tFinalFooter{
+    margin-bottom: 0;
+    font-size: 15px;
+    width: 24em;
+    font-size: 13px;
+}
+
+.iconFinalCard{
+    width: 38px;
+    margin-top: 3px;
+}
+
+
+
+
+
+@media (max-width: 600px){
+   .pSection2{
+        width: 80%;
+   }   
+
+   h4{
+       text-align: center;
+   }
+}
+
+
+
+
+@media(max-width: 800px){
+
+    .hr{
+        margin-left: 6%;
+        width: 88%;
+    }
+
+    .mulherCard{
+        display: flex;
+        flex-direction: column-reverse;
+        margin:auto
+    }
+
+    .textoSection1{
+        width: 100%;
+    }
+
+    .navbar-nav :hover{
+        background-color: black;
+    }
+
+    .FlexSections1{
+        flex-direction: column;
+    }
+
+    .FlexSections2{
+        flex-direction: column;
+    }
+
+    .fotos{
+        width: 90%;
+        margin-top: -3px;
+        margin: auto;
+    }
+
+    .peoples{
+        flex-direction: column;
+    }
+    
+    .pessoas{
+        width: 100%;
+    }
+
+    .roxoCard{
+        padding-top: 3em;
+        padding-left: 4em;
+        padding-right: 2.7em;
+        width: 100%;
+    }
+
+    .mulherImagem{
+        width: 100%;
+    }
+
+    .h5FinalCards{
+        font-size: 20px;
+    }
+
+    .bolinhas{
+        padding-bottom: 17px;
+        justify-content: left;
+    }
+
+    .Cards{
+        margin-bottom: 2em;
+        text-align: center;
+       
+    }
+
+    .FinalCards{
+        flex-direction: column;
+    }
+
+    .textoFinalCards{
+        width: 100%;
+    }
+
+    a{
+        margin-left: 0;
+    }
+}
